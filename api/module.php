@@ -11,7 +11,7 @@ $nbAteliers = 6;
 /* Photos de correction : "module-atelier" => liste des fichiers
    Les images sont dans public/images/modules/m1/atelier1/ etc. */
 $corrections = [
-  "1-1" => ["1.jpeg", "2.jpeg"],
+  "1-1" => ["1.jpeg", "2.jpeg", "3.jpeg"],
   "1-2" => ["1.jpeg"],
   "1-3" => [],
   "1-4" => [],
