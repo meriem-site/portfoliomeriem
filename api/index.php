@@ -9,7 +9,7 @@ $city    = "Tanger, Aouama";
 $hobbies = ["Dessin","Photographie","Voyage","Sport"];
 $github  = "https://github.com/meriem-site";
 $linkedin= "https://www.linkedin.com/in/mariam-ait-el-madani-459003328";
-$cv      = "/docs/cv.pdf";           // remplace par ton CV
+$cv      = "/docs/CV_MeriemeAitElMadani.pdf";           // remplace par ton CV
 $initials= "MA";
 
 $skills = [
@@ -21,9 +21,10 @@ $skills = [
 
 /* Projets : [titre, description, technologies, lien du bouton, lien GitHub, texte du bouton] */
 $projects = [
-  ["Gestion de bibliothèque","Site web dynamique pour gérer une bibliothèque : ajout, modification et suppression des livres, gestion des utilisateurs et interface d'administration simple.",["HTML","CSS","JavaScript"],"/module?m=1","module.php","Voir module 1"],
-  ["Site statique et dynamique (en cours)","Site combinant pages statiques et dynamiques, avec une interface moderne et responsive, en cours d'amélioration.",["HTML","CSS","JavaScript","PHP"],"/module?m=2","module.php","Voir module 2"],
-  ["Nom du projet","Décris ici les fonctionnalités principales de ton application.",["Technologie 1","Technologie 2"],"/projets","#","Voir le projet"],
+  ["Approche agile","Apprentissage des méthodes agiles pour organiser, planifier et suivre efficacement les projets en équipe.",["Trello","jira","Git","Figma","Microsoft Teams"],"/module?m=1","module.php","Voir module 1"],
+  ["Développement back-end","Développement de la partie serveur des applications, gestion des bases de données et création d'API.",["PHP","MySQL","PDO","XAMPP / WAMP","Git & GitHub","Postman"],"/module?m=2","module.php","Voir module 2"],
+  ["Mes projets (en groupe et individuels)","Création d'une application web interactive avec une interface moderne, intuitive et adaptée aux besoins des utilisateurs.
+",["PHP","MySQL","PDO","HTML","CSS","Bootstrap"],"/projets","#","Voir le projet"],
 ];
 
 $education = [
@@ -138,7 +139,7 @@ header.solid{background:rgba(58,35,33,.96);backdrop-filter:blur(8px);box-shadow:
 .editor-bar i:nth-child(2){background:var(--brown-soft)}.editor-bar i:nth-child(3){background:var(--brown)}
 .editor-bar small{margin-left:auto;font-family:var(--mono);font-size:.75rem;color:var(--brown-soft)}
 .editor-body{display:grid;grid-template-columns:auto 1fr;gap:1.2rem;padding:1.4rem;align-items:center}
-.avatar{width:96px;height:96px;border-radius:50%;background:var(--brown);color:var(--pink);font-family:var(--serif);font-size:2rem;display:grid;place-items:center;border:4px solid var(--pink-pale);outline:2px solid var(--pink)}
+.avatar{width:130px;height:130px;border-radius:50%;background:var(--brown);color:var(--pink);font-family:var(--serif);font-size:2rem;display:grid;place-items:center;border:4px solid var(--pink-pale);outline:2px solid var(--pink)}
 .avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}
 .editor pre{font-family:var(--mono);font-size:.8rem;line-height:1.75;overflow-x:auto;grid-column:1/-1;background:var(--white);border-radius:10px;padding:1rem}
 .k{color:var(--pink-deep)}.c{color:var(--brown-soft)}
@@ -301,7 +302,7 @@ footer{background:#2b1918;color:#cdb8b1;padding:2rem 0;font-size:.9rem}
     <div class="editor" aria-hidden="true">
       <div class="editor-bar"><i></i><i></i><i></i><small>developpeuse.php</small></div>
       <div class="editor-body">
-        <div class="avatar"><?= h($initials) ?><!-- Remplace par : <img src="/images/photo.jpg" alt=""> --></div>
+        <div class="avatar"><img src="/images/photo.jpg" alt="Photo de <?= h($name) ?>"></div>
         <div><b style="font-family:var(--serif);font-size:1.15rem">Full Stack</b><br><span style="color:var(--brown-soft);font-size:.9rem">ISTA NTIC Tanger</span></div>
 <pre><span class="c">// mon profil</span>
 <span class="k">$developpeuse</span> = [
