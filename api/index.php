@@ -139,8 +139,8 @@ header.solid{background:rgba(58,35,33,.96);backdrop-filter:blur(8px);box-shadow:
 .editor-bar i:nth-child(2){background:var(--brown-soft)}.editor-bar i:nth-child(3){background:var(--brown)}
 .editor-bar small{margin-left:auto;font-family:var(--mono);font-size:.75rem;color:var(--brown-soft)}
 .editor-body{display:grid;grid-template-columns:auto 1fr;gap:1.2rem;padding:1.4rem;align-items:center}
-.avatar{width:130px;height:130px;border-radius:50%;background:var(--brown);color:var(--pink);font-family:var(--serif);font-size:2rem;display:grid;place-items:center;border:4px solid var(--pink-pale);outline:2px solid var(--pink)}
-.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.avatar{width:120px;height:150px;border-radius:18px;overflow:hidden;display:block}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
 .editor pre{font-family:var(--mono);font-size:.8rem;line-height:1.75;overflow-x:auto;grid-column:1/-1;background:var(--white);border-radius:10px;padding:1rem}
 .k{color:var(--pink-deep)}.c{color:var(--brown-soft)}
 
