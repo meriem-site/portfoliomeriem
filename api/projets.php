@@ -3,9 +3,8 @@
    PROJETS — modifie uniquement cette zone
    [titre, description, fichier (dans public/docs/), type "PDF" ou "PPT"]
    ========================================================== */
-
+$site = "https://portfoliomeriem.vercel.app";   // l'adresse dyal site dyalk
 $projets = [
-  $site = "https://portfoliomeriem.vercel.app";   // l'adresse dyal site dyalk
   ["Projet 1", "Création de l'identité visuelle d'une application, comprenant la conception du logo, le choix du nom et la création d'un slogan adapté à son identité et à ses objectifs.", "/docs/projet1.pptx", "PPT"],
   ["Projet 2", "Organisation et planification d'un projet selon le modèle en cascade, en suivant les différentes étapes du cycle de développement de manière structurée et progressive.", "/docs/projet2.pdf",  "PDF"],
 ];
