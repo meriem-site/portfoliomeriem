@@ -12,7 +12,7 @@ $nbAteliers = 6;
    Les images sont dans public/images/modules/m1/atelier1/ etc. */
 $corrections = [
   "1-1" => ["1.jpeg", "2.jpeg", "3.jpeg"],
-  "1-2" => ["1.jpeg"],
+  "1-2" => ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"],
   "1-3" => [],
   "1-4" => [],
   "1-5" => [],
@@ -76,6 +76,11 @@ if ($a) {
       <?php endforeach; ?>
       <?php if (!$photos): ?><p class="empty">Aucune photo pour le moment.</p><?php endif; ?>
     </div>
+    <?php if ($m === 1 && $a === 2): ?>
+      <p class="prototype-link">Voici le lien vers le prototype de notre projet Vendo :
+        <a href="https://www.figma.com/proto/wqSIZy2mydbThOAkEP1s6y/Sans-titre?page-id=285%3A980&amp;node-id=313-205&amp;viewport=397%2C230%2C0.11&amp;t=JeAeA4OkbpogpE1T-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;starting-point-node-id=313%3A205" target="_blank" rel="noopener noreferrer">Voir le prototype sur Figma <i class="bi bi-box-arrow-up-right"></i></a>
+      </p>
+    <?php endif; ?>
   <?php endif; ?>
 </div>
 </body>
